@@ -1,4 +1,6 @@
 linux
 =====
 
-Linux
+Linux Files
+
+/vim 	:	vimrc 		=> /etc/vim/vimrc
