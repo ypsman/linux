@@ -1,0 +1,8 @@
+#!/bin/bash
+TODAY=$(date +%d.%m.%Y)
+if grep -q $TODAY /etc/not-today/days.cfg; then
+	echo "not-today-script Killing Job at $TODAY"
+	kill -9 $PPID
+    exit 0
+fi
+
