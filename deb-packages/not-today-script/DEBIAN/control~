@@ -1,8 +1,0 @@
-Package: not-today-script
-Version: 0.0.1-a
-Section: misc
-Priority: extra
-Architecture: all
-Installed-Size: 125
-Maintainer: Yves Sanderbrand <yvessander@gmail.com>
-Description: Skript das es eine Einfache methode bietet script oder Cronjobs on bestimmten Tagen nicht auszuführen. "not-today-script" an die entsprechende Stelle eintragen.
