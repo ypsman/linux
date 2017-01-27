@@ -62,4 +62,6 @@ fi
 # some more ls aliases
 alias ll='ls -alh'
 
-
+if [ -z "$APPLICATION_ENV" ]; then
+PS1="\[$Green\][\t] \[$Purple\]\h \[$BCyan\]\u \[$Yellow\]\[$BYellow\]\w\[\033[m\]\[$BWhite\] \$ \[$(tput sgr0)\]
+if
