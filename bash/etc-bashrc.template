@@ -62,6 +62,6 @@ fi
 # some more ls aliases
 alias ll='ls -alh'
 
-if [ -z "$APPLICATION_ENV" ]; then
-PS1="\[$Green\][\t] \[$Purple\]\h \[$BCyan\]\u \[$Yellow\]\[$BYellow\]\w\[\033[m\]\[$BWhite\] \$ \[$(tput sgr0)\]
-if
+f [ -z "$APPLICATION_ENV" ]; then
+export PS1="\[\033[38;5;7m\][\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;40m\]\t\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;7m\]]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;27m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;51m\]\u\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;226m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
+fi
